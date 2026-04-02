@@ -1,13 +1,13 @@
 # JoAi Plugins
 
-Install production-ready MCP app plugins for Claude, Codex, Cursor, and ChatGPT.
+Install production-ready JoAi MCP apps for ChatGPT, Claude, Codex, Cursor, and other MCP clients.
 
 [Browse apps](https://joai.ai/apps) · [Open JoAi](https://joai.ai) · [Follow on X](https://x.com/JoAiAgents)
 
 ## What This Org Contains
 
 - One public repo per JoAi app plugin
-- Hosted MCP integrations with clean install docs
+- Hosted MCP integrations with clean install docs and app landing pages
 - Dedicated app pages at `joai.ai/en/apps/<slug>`
 - Generated plugin bundles synced from the JoAi app catalog
 
@@ -51,6 +51,8 @@ https://cortex.joai.ai/mcp/apps/anthropic
 ## How It Works
 
 Every repo in this org maps to one JoAi app slug. The plugin repos are generated from the JoAi warp catalog, published as public install targets, and linked back to their canonical app pages for docs, discovery, and SEO.
+
+That gives every app a clean GitHub repo, a dedicated JoAi landing page, and install paths for ChatGPT, Claude, Codex, Cursor, and other MCP clients.
 
 ## App Directory
 
