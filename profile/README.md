@@ -52,15 +52,10 @@ Every repo in this org maps to one JoAi app slug. The plugin repos are generated
 
 That gives every app a clean GitHub repo, a dedicated JoAi landing page, and install paths for ChatGPT, Claude, Codex, Cursor, and other MCP clients.
 
-## 🔎 Explore
-
-- Discover the full catalog: [joai.ai/apps](https://joai.ai/apps)
-- Open the main JoAi site: [joai.ai](https://joai.ai)
-- Browse this GitHub org: [github.com/joai-plugins](https://github.com/joai-plugins)
-
 ## 🙂 A Few Friendly Notes
 
 - These repos are generated artifacts, not hand-maintained codebases.
 - OpenAI submission bundles stay private and are not published here.
 - Repo homepages point to the corresponding JoAi app pages.
 - ✨ Every plugin repo is meant to be easy to scan, install, and share.
+- Use the repo list and search below to jump to the app you want.
