@@ -4,58 +4,31 @@ Install production-ready JoAi MCP apps for ChatGPT, Claude, Codex, Cursor, and o
 
 [Browse apps](https://joai.ai/apps) · [Open JoAi](https://joai.ai) · [Follow on X](https://x.com/JoAiAgents)
 
-## ✨ What You’ll Find
+## ✨ Why Use This
 
-- Faster setup for JoAi apps across ChatGPT, Claude, Codex, Cursor, and other MCP clients
-- Official, hosted integrations you can trust for real work
-- Clean install paths and lightweight repos that are easy to share with a team
-- A simpler way to discover useful apps and start using them right away
+- Official JoAi integrations that are easy to install and easy to trust
+- A faster path from discovery to actual use across the AI clients you already use
+- Lightweight repos you can share, bookmark, and reuse across workflows
 
 ## 🚀 Quick Start
-
-### ChatGPT
-
-Paste any app MCP URL into ChatGPT MCP settings:
-
-```text
-https://cortex.joai.ai/mcp/apps/<slug>
-```
 
 ### Claude
 
 ```bash
-claude plugin install --scope user joai-plugins/<slug>
+claude plugin marketplace add --scope user JoAiHQ/claude-plugins
+claude plugin install --scope user joai-<slug>@joai-claude-plugins
 ```
 
 ### Codex
 
 ```bash
-codex mcp add joai-<slug> --transport http https://cortex.joai.ai/mcp/apps/<slug>
+codex mcp add joai-<slug> --url https://cortex.joai.ai/mcp/apps/<slug>
 ```
 
-### Cursor
+### ChatGPT / Cursor / Other MCP Clients
 
 ```bash
-git clone https://github.com/joai-plugins/<slug>.git ~/.cursor/plugins/local/joai-<slug>
+https://cortex.joai.ai/mcp/apps/<slug>
 ```
 
-## 💡 Why This Org Exists
-
-- Help you go from “that app looks useful” to “it’s working in my client” with less friction
-- Make JoAi apps easier to discover, install, compare, and share
-- Give every app a clear official home for docs, setup, and trust
-- Let the same app work across the clients people already use every day
-
-## 🌍 Why It Matters
-
-- Less setup overhead when trying a new app
-- Better portability between AI clients instead of getting locked into one surface
-- Easier sharing inside teams, communities, and workflows
-- A cleaner path from discovery to actual usage
-
-## 🙂 A Few Friendly Notes
-
-- ✨ Every plugin repo is meant to be easy to scan, install, and share.
-- You can use the same JoAi app in more than one client depending on how you work.
-- Each repo is there to make adoption simpler, not to overwhelm you with setup.
-- Use the repo list and search below to jump to the app you want.
+Use the repo list and search below to find the app you want.
