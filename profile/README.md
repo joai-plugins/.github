@@ -6,10 +6,10 @@ Install production-ready JoAi MCP apps for ChatGPT, Claude, Codex, Cursor, and o
 
 ## ✨ What You’ll Find
 
-- One public repo per JoAi app plugin
-- Hosted MCP integrations with clean install docs and app landing pages
-- Dedicated app pages at `joai.ai/en/apps/<slug>`
-- Generated plugin bundles synced from the JoAi app catalog
+- Faster setup for JoAi apps across ChatGPT, Claude, Codex, Cursor, and other MCP clients
+- Official, hosted integrations you can trust for real work
+- Clean install paths and lightweight repos that are easy to share with a team
+- A simpler way to discover useful apps and start using them right away
 
 ## 🚀 Quick Start
 
@@ -41,21 +41,21 @@ git clone https://github.com/joai-plugins/<slug>.git ~/.cursor/plugins/local/joa
 
 ## 💡 Why This Org Exists
 
-- Discover JoAi apps in a GitHub-native format
-- Install the same app across multiple MCP clients
-- Land on a clean JoAi app page with docs and context
-- Keep public plugin repos lightweight and easy to browse
+- Help you go from “that app looks useful” to “it’s working in my client” with less friction
+- Make JoAi apps easier to discover, install, compare, and share
+- Give every app a clear official home for docs, setup, and trust
+- Let the same app work across the clients people already use every day
 
-## ⚙️ How It Works
+## 🌍 Why It Matters
 
-Every repo in this org maps to one JoAi app slug. The plugin repos are generated from the JoAi warp catalog, published as public install targets, and linked back to their canonical app pages for docs, discovery, and SEO.
-
-That gives every app a clean GitHub repo, a dedicated JoAi landing page, and install paths for ChatGPT, Claude, Codex, Cursor, and other MCP clients.
+- Less setup overhead when trying a new app
+- Better portability between AI clients instead of getting locked into one surface
+- Easier sharing inside teams, communities, and workflows
+- A cleaner path from discovery to actual usage
 
 ## 🙂 A Few Friendly Notes
 
-- These repos are generated artifacts, not hand-maintained codebases.
-- OpenAI submission bundles stay private and are not published here.
-- Repo homepages point to the corresponding JoAi app pages.
 - ✨ Every plugin repo is meant to be easy to scan, install, and share.
+- You can use the same JoAi app in more than one client depending on how you work.
+- Each repo is there to make adoption simpler, not to overwhelm you with setup.
 - Use the repo list and search below to jump to the app you want.
